@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sprigsbakery/static/css/main.8b5aa560.css",
-    "main.js": "/sprigsbakery/static/js/main.3d458148.js",
+    "main.css": "/sprigsbakery/static/css/main.60cdc071.css",
+    "main.js": "/sprigsbakery/static/js/main.65c8b679.js",
     "static/media/block2.jpg": "/sprigsbakery/static/media/block2.7783bc0d6401ce4fd792.jpg",
     "static/media/banner1.jpg": "/sprigsbakery/static/media/banner1.ae65a834866203087d57.jpg",
     "static/media/blockextra.jpg": "/sprigsbakery/static/media/blockextra.b476bfedf659fc337b07.jpg",
@@ -9,13 +9,22 @@
     "static/media/scene1.jpg": "/sprigsbakery/static/media/scene1.888b7e2457150705381c.jpg",
     "static/media/scene2.jpg": "/sprigsbakery/static/media/scene2.3d4ef24f3ca6f7576b34.jpg",
     "static/media/map.png": "/sprigsbakery/static/media/map.38378249cea8dffa9bc0.png",
+    "static/media/peacanbanabread.jpg": "/sprigsbakery/static/media/peacanbanabread.f105e7810b94f49a0c48.jpg",
+    "static/media/saltedcaramel.jpg": "/sprigsbakery/static/media/saltedcaramel.51feeeb6e67d73989b50.jpg",
+    "static/media/nutscupcake.jpg": "/sprigsbakery/static/media/nutscupcake.990e1f5490d8eeb4908a.jpg",
+    "static/media/crinkle.jpg": "/sprigsbakery/static/media/crinkle.59d8582b97d0cc09ddf1.jpg",
+    "static/media/crossaint.jpg": "/sprigsbakery/static/media/crossaint.2c0e6382be5eb92a9759.jpg",
+    "static/media/cherryblossomtart.jpg": "/sprigsbakery/static/media/cherryblossomtart.d50c3fc534b35505ef43.jpg",
+    "static/media/milbread.jpg": "/sprigsbakery/static/media/milbread.4d6a45086dc99308b437.jpg",
+    "static/media/honeycreampuff.jpg": "/sprigsbakery/static/media/honeycreampuff.ea2dda35da8aa90baa4a.jpg",
+    "static/media/strawberrypuff.jpg": "/sprigsbakery/static/media/strawberrypuff.a535f564ea9d687c60d0.jpg",
     "static/media/sprigslogo.png": "/sprigsbakery/static/media/sprigslogo.f8add6f42911c05fcc33.png",
     "index.html": "/sprigsbakery/index.html",
-    "main.8b5aa560.css.map": "/sprigsbakery/static/css/main.8b5aa560.css.map",
-    "main.3d458148.js.map": "/sprigsbakery/static/js/main.3d458148.js.map"
+    "main.60cdc071.css.map": "/sprigsbakery/static/css/main.60cdc071.css.map",
+    "main.65c8b679.js.map": "/sprigsbakery/static/js/main.65c8b679.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5aa560.css",
-    "static/js/main.3d458148.js"
+    "static/css/main.60cdc071.css",
+    "static/js/main.65c8b679.js"
   ]
 }
