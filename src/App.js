@@ -19,18 +19,17 @@ function App() {
   return (
     <DataProvider>
       <Routes>
-        <Route path='/' element={<Layout></Layout>}>
-          <Route index element= <Home/> />
+        <Route path='/sprigsbakery/' element={<Layout/>}>
+            <Route index element= <Home/> />
 
-            <Route path='Menu' index element= <Menu/> />
-            <Route path='Gallery' index element= <Gallery/> />
-            <Route path='About' index element= <AboutUs/> />
-            <Route path='Contact' index element= <ContactUs/> />
-            <Route path='Terms' index element= <Terms/> />
-            <Route path='Privacy' index element= <Privacy/> />
-            <Route path='Login' index element= <Login/> />
-            <Route path='Welcome' index element= <Welcome/> />
-
+            <Route path='/sprigsbakery/Menu' index element= <Menu/> />
+            <Route path='/sprigsbakery/Gallery' index element= <Gallery/> />
+            <Route path='/sprigsbakery/About' index element= <AboutUs/> />
+            <Route path='/sprigsbakery/Contact' index element= <ContactUs/> />
+            <Route path='/sprigsbakery/Terms' index element= <Terms/> />
+            <Route path='/sprigsbakery/Privacy' index element= <Privacy/> />
+            <Route path='/sprigsbakery/Login' index element= <Login/> />
+            <Route path='/sprigsbakery/Welcome' index element= <Welcome/> />
 
         </Route>
 

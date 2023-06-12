@@ -21,9 +21,9 @@ const Footer = () => {
           <div className='infofooter'>
             <ul>
               <li> <h1>Information</h1> </li>
-              <li> <Link to='/Contact'> Contact </Link> </li>
-              <li> <Link to='/Terms'> Terms of Service </Link> </li>
-              <li> <Link to='/Privacy'> Privacy Policy </Link> </li>
+              <li> <Link to='/sprigsbakery/Contact'> Contact </Link> </li>
+              <li> <Link to='/sprigsbakery/Terms'> Terms of Service </Link> </li>
+              <li> <Link to='/sprigsbakery/Privacy'> Privacy Policy </Link> </li>
             </ul>
           </div>
         </div>

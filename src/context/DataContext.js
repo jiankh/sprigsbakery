@@ -7,7 +7,6 @@ const DataContext = createContext({})
 
 export const DataProvider = ({ children }) => {
     const [search, setSearch] = useState('')
-    //const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3500/posts')
     const [seen, setSeen] = useState(false)
     function togglePop () {
       setSeen(!seen);

@@ -73,7 +73,7 @@ const Login = (props) => {
                             <button type="submit">Login</button>
                             {/* onClick={handleLogin} */}
                         </form>
-                        <button onClick={props.toggle}>Close</button>
+                        <button className='cancelbtn' onClick={props.toggle}>Close</button>
                     </div>
                 ) : (
                     <div>
@@ -96,7 +96,7 @@ const Login = (props) => {
     
                             <button type="submit">Register</button>
                         </form>
-                        <button onClick={props.toggle}>Close</button>
+                        <button className='cancelbtn' onClick={props.toggle}>Close</button>
                     </div>
                 )}
             </div>

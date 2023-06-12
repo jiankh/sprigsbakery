@@ -107,6 +107,44 @@
     
 }
 
+/* Home Message */
+.Home {
+    position: relative;
+}
+
+.homeMsgContainer {
+    position: absolute;
+    top: 25%;
+    left:10%
+}
+
+.homeMsg {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Sans';
+    text-shadow:
+    -1px -1px 0 #a17c6B,
+    1px -1px 0 #a17c6B,
+    -1px 1px 0 #a17c6B,
+    1px 1px 0 #a17c6B;
+}
+
+.homeMsgContainer button{
+    width: 25%;
+    padding: 0.5em 0;
+    margin: 0.5em;
+    background-color: #CEB5a7;
+}
+.homeMsgContainer button a{
+    text-decoration: none;
+    color: black;
+}
+
+.homeMsgContainer button:hover ,
+.homeMsgContainer button:focus {
+    cursor: pointer;
+}
+
  /* FOOTER  */
 .Footer {
     width: 100%;
@@ -160,7 +198,7 @@ th {
     overflow:hidden;
 }
 
-/* TEST */
+/* FOOTER */
 .footer {
     width: 100%;
     
@@ -280,9 +318,10 @@ button {
     padding-bottom:30px;
 } 
 
+/* MENU PAGE */
 
 .banner1 {
-    height: 400px;
+    max-height: 400px;
     width:100%;
     object-fit: cover;
 }
@@ -291,23 +330,106 @@ button {
     position: absolute;
     top: 40%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     color: black;
     font-size: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
+
 }
 
 .bannerTitle {
-    position: absolute;
-    bottom:100%;
-    padding-bottom: 50px;
-    left:50%;
-    transform: translate(-50%, -50%);
+    position:relative;
+    text-align: center;
+    
 }
 
 .subBanner {
     position: absolute;
     padding-left: 5%
+}
+
+.pastries h1, .bread h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS';
+    color:#a17c6b;
+    margin: 2rem;
+}
+
+.pastriesContainer, .breadContainer {
+    max-width: 100%;
+    display:grid;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+
+@media (min-width: 50em) {
+    .pastriesContainer, .breadContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    background-color: #ceb5a7;
+    border-radius: 10%;
+}
+
+.menuItemImage img{
+    object-fit: fill;
+    width: 70%;
+    height: 70%;
+    align-content: center;
+    border-radius: 10%;
+}
+
+.menuItemImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menuItemTitle h2{
+    display: flex;
+    font: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    color: white;
+}
+
+.card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    color: white;
+}
+
+.addCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.addCart button{
+    padding:0.5rem;
+    background-color:#a17c6b;
+    color: white;
+}
+
+.addCart button:hover {
+    cursor: pointer;
+    color:black;
 }
 
 
