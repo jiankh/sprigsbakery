@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+The Live site for this project is https://jiankh.github.io/sprigsbakery/ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
